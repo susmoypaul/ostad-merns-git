@@ -32,15 +32,17 @@ a{
     color: #c34a4a;
 
 }
+/* banner section start*/
 .banner{
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
     height: 95vh;
-
+   
 }
 .container{
     padding: 20px;
+    background-color: #e7f5ed;
 }
 .intro{
     font-weight: 400;
@@ -68,3 +70,32 @@ a{
     transition: .3s;
     transform: scale(1.1);
 }
+/* banner section end*/
+
+/* about section start*/
+.about{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    height: 95vh;
+    padding: 20px;
+}
+.about-img img{
+    border-radius: 70%;
+    height: 550;
+    width: 550;
+}
+.about-content h1{
+font-weight: 500;
+font-size: 30px;
+color: #2f485e;
+margin-bottom: 15px;
+}
+.about-content p{
+    font-size: 18px;
+    border-left: 2px solid #a4b6ac;
+    padding-left: 10px;
+}
+   
+
+/* about section end*/
